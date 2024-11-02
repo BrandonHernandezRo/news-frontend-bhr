@@ -23,7 +23,6 @@ const App = () => {
     getApiNews(searchTerm, selectedCategory, setArticles);
     setCurrentPage(1);
   };
-
   // Paginación y cálculo de artículos para mostrar
   const indexOfLastArticle = currentPage * articlesPerPage;
   const indexOfFirstArticle = indexOfLastArticle - articlesPerPage;
