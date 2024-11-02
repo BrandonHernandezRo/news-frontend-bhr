@@ -11,3 +11,5 @@ Se decidió una interfaz simple que permite el entendimiento al usuario de como 
 No se implentaron rutas por la simplicidad del ejercicio y por optimización de tiempos en el despliegue de la aplicación. 
 Se implementó la lógica necesaria para crear la funcionalidad de agregar/quitar noticias de favoritos, creando una persistencia de datos para visualizarlas noticias favoritar incluso después de refrescar la página. 
 La aplicación no requirio mas hooks que los básicos (useEfect y useState) por la simplicidad del ejercicio. 
+
+Para ejecutar este archivo es necesario tener node js instalado, asi como npm. Una vez teniendolos dentro de la carpeta del proyecto ejecutar el comando "npm start" en la terminal. 
